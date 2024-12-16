@@ -53,9 +53,7 @@
         section#historia {
             background-color: white;
             min-width: 400px;
-            min-height: 800px;
-            max-width: min-content;
-            max-height: min-content;
+            max-width: 800px;
             margin: auto;
             box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.37);
             border-radius: 0px 0px 10px 10px;
@@ -94,15 +92,17 @@
 
         div#videoandroid {
             background-color: #0B552A;
-            text-align: center;
             position: relative;
+            height: 0px;
+            padding-bottom: 59%;
         }
 
         div#videoandroid > iframe {
-            padding: 10px 0px 10px 0px;
-            width: 500px;
-            height: 300px;
-            border: 0;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
         }
 
         div#lista {
